@@ -1,0 +1,181 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+body,
+html {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 10vw 0 10vw;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    color: #2e2e2e;
+    font-weight: 380;
+}
+
+h1 {
+    font-family: 'Itim', serif;
+    font-size: 2em;
+    color: #49856e;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+
+/* Flexbox setup for the user and logout area */
+.user_area {
+    align-self: flex-end;
+    width: 100%;
+}
+
+/* Styling for the username and logout button */
+#user {
+    font-size: 25px;
+    font-weight: 450;
+    color: #8dc28a;
+    margin: 0 3vw 0 0;
+}
+
+.logout-button {
+    margin: 0;
+    padding: 0;
+
+}
+
+.opContainer,
+.tasks {
+    width: 80%;
+}
+
+/* Operations container styling */
+.opContainer {
+    margin: 2vh 0;
+
+}
+
+/* Tasks area styling */
+.task {
+    background-color: #E1F0E1;
+    padding: 3vw;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    text-align: left;
+}
+
+#add-btn {
+    margin-top: 1vh;
+    align-self: center;
+    padding: 1vw;
+    background-color: #D5EAD5;
+    border: solid 1px #49856e;
+    cursor: pointer;
+    color: #49856e;
+}
+
+button,
+#loginPage,
+#eidt-sub {
+    padding: 0.5vw;
+    font-size: 16px;
+    margin: 1vw;
+    background-color: #D5EAD5;
+    border: solid 1px #49856e;
+    cursor: pointer;
+    color: #49856e;
+}
+
+/* Hover effect for buttons */
+button:hover {
+    background-color: #49856e;
+    color: white;
+}
+
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+/* button a:visited, */
+button a:active,
+button a:focus {
+    text-decoration: none;
+    color: #49856e;
+}
+
+button a:hover {
+    color: white;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="url"],
+select,
+textarea {
+    border: 0.5px solid rgb(1, 51, 1);
+    color: grey;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: grey;
+    font-weight: 80;
+}
+
+select {
+    color: grey;
+}
+
+.search-area {
+    display: flex;
+    align-items: center;
+}
+
+
+.search-box input[type="text"] {
+    height: 27px;
+}
+
+#searchTerm::placeholder {
+    color: #999;
+    font-style: italic;
+    font-weight: 100;
+}
+
+button#search {
+    height: 27px;
+}
+
+.filter-group {
+    margin: 1vh 0;
+}
+
+.filter-select,
+.filter-input {
+    width: 40%;
+    box-sizing: border-box;
+}
+
+#apply-filter {
+    padding: 8px 20px;
+    background-color: #D5EAD5;
+    border: solid 1px #49856e;
+    cursor: pointer;
+    color: #49856e;
+}
+
+.filter-group label {
+    font-weight: 100;
+}
+
+.filter-select option {
+    font-weight: 100;
+}
